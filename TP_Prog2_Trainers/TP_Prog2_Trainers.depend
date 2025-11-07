@@ -10,3 +10,53 @@
 	<iostream>
 	"menu.h"
 
+1762550347 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\main.cpp
+	<iostream>
+	"menu.h"
+
+1762551213 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menu.h
+
+1762552341 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menu.cpp
+	<iostream>
+	"menu.h"
+	"menuCargar.h"
+	"menuBorrar.h"
+	"menuModificar.h"
+	"menuReportes.h"
+	"menuInformes.h"
+
+1762551313 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menucargar.h
+
+1762551313 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menucargar.cpp
+	<iostream>
+	<cstdlib>
+	"menuCargar.h"
+
+1762551760 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menuborrar.cpp
+	<iostream>
+	<cstdlib>
+	"menuBorrar.h"
+
+1762551760 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menuborrar.h
+
+1762551969 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menumodificar.cpp
+	<iostream>
+	<cstdlib>
+	"menuModificar.h"
+
+1762551969 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menumodificar.h
+
+1762552118 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menureportes.cpp
+	<iostream>
+	<cstdlib>
+	"menuReportes.h"
+
+1762552118 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menureportes.h
+
+1762552298 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menuinformes.cpp
+	<iostream>
+	<cstdlib>
+	"menuInformes.h"
+
+1762552298 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menuinformes.h
+

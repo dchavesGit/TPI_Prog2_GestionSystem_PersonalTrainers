@@ -35,6 +35,16 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.cpp" />
 		<Unit filename="menu.h" />
+		<Unit filename="menuBorrar.cpp" />
+		<Unit filename="menuBorrar.h" />
+		<Unit filename="menuCargar.cpp" />
+		<Unit filename="menuCargar.h" />
+		<Unit filename="menuInformes.cpp" />
+		<Unit filename="menuInformes.h" />
+		<Unit filename="menuModificar.cpp" />
+		<Unit filename="menuModificar.h" />
+		<Unit filename="menuReportes.cpp" />
+		<Unit filename="menuReportes.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
