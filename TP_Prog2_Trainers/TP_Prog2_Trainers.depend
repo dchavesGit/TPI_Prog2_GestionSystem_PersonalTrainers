@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1762500807 source:c:\users\valen\desktop\tp_prog2_trainers\tp_prog2_trainers\menu.cpp
+	<iostream>
+	"menu.h"
+
+1762500421 c:\users\valen\desktop\tp_prog2_trainers\tp_prog2_trainers\menu.h
+	"menu.h"
+
+1762507849 source:c:\users\valen\desktop\tp_prog2_trainers\tp_prog2_trainers\main.cpp
+	<iostream>
+	"menu.h"
+
