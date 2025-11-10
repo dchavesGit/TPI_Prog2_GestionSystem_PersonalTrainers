@@ -1,0 +1,139 @@
+# depslib dependency file v1.0
+1762500807 source:c:\users\valen\desktop\tp_prog2_trainers\tp_prog2_trainers\menu.cpp
+	<iostream>
+	"menu.h"
+
+1762500421 c:\users\valen\desktop\tp_prog2_trainers\tp_prog2_trainers\menu.h
+	"menu.h"
+
+1762507849 source:c:\users\valen\desktop\tp_prog2_trainers\tp_prog2_trainers\main.cpp
+	<iostream>
+	"menu.h"
+
+1762550347 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\main.cpp
+	<iostream>
+	"menu.h"
+
+1762551213 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menu.h
+
+1762552341 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menu.cpp
+	<iostream>
+	"menu.h"
+	"menuCargar.h"
+	"menuBorrar.h"
+	"menuModificar.h"
+	"menuReportes.h"
+	"menuInformes.h"
+
+1762551313 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menucargar.h
+
+1762551313 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menucargar.cpp
+	<iostream>
+	<cstdlib>
+	"menuCargar.h"
+
+1762551760 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menuborrar.cpp
+	<iostream>
+	<cstdlib>
+	"menuBorrar.h"
+
+1762551760 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menuborrar.h
+
+1762551969 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menumodificar.cpp
+	<iostream>
+	<cstdlib>
+	"menuModificar.h"
+
+1762551969 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menumodificar.h
+
+1762552118 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menureportes.cpp
+	<iostream>
+	<cstdlib>
+	"menuReportes.h"
+
+1762552118 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menureportes.h
+
+1762552298 source:c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menuinformes.cpp
+	<iostream>
+	<cstdlib>
+	"menuInformes.h"
+
+1762552298 c:\users\valen\desktop\gitprueba\tpi_prog2_gestionsystem_personaltrainers\tp_prog2_trainers\menuinformes.h
+
+1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\main.cpp
+	<iostream>
+	"menu.h"
+
+1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menu.h
+
+1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menu.cpp
+	<iostream>
+	"menu.h"
+	"menuCargar.h"
+	"menuBorrar.h"
+	"menuModificar.h"
+	"menuReportes.h"
+	"menuInformes.h"
+
+1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menucargar.h
+
+1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuborrar.h
+
+1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menumodificar.h
+
+1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menureportes.h
+
+1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuinformes.h
+
+1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuborrar.cpp
+	<iostream>
+	<cstdlib>
+	"menuBorrar.h"
+
+1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menucargar.cpp
+	<iostream>
+	<cstdlib>
+	"menuCargar.h"
+
+1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuinformes.cpp
+	<iostream>
+	<cstdlib>
+	"menuInformes.h"
+
+1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menumodificar.cpp
+	<iostream>
+	<cstdlib>
+	"menuModificar.h"
+
+1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menureportes.cpp
+	<iostream>
+	<cstdlib>
+	"menuReportes.h"
+
+1762802976 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.cpp
+	"archivoEntrenadores.h"
+
+1762803048 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.h
+	"ArchivoClientes.h"
+
+1762803048 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoclientes.h
+	"archivoEntrenadores.h"
+
+1762803990 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.cpp
+	"Clientes.h"
+
+1762803959 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.h
+	"Clientes.h"
+
+1762803959 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.h
+	"Clientes.h"
+
+1762803993 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.cpp
+	"Entrenadores.h"
+
+1762803819 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\sede.cpp
+	"Sede.h"
+
+1762804036 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\sede.h
+	"Sede.h"
+
