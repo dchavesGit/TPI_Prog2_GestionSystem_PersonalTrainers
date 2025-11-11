@@ -1,5 +1,4 @@
 #pragma once
-#include "Clientes.h"
 
 class Cliente {
 private:
@@ -7,7 +6,7 @@ private:
     char nombre[30];
     char apellido[30];
     int dni;
-    int idEntrenador; ///PARA RELACIONARLO CON SU ENTRENADOR
+    int idEntrenador;
     float cuotaMensual;
     bool activo;
 
@@ -23,4 +22,3 @@ public:
     void setActivo(bool estado) { activo = estado; }
     void setCuotaMensual(float c) { cuotaMensual = c; }
 };
-

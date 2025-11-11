@@ -75,7 +75,7 @@
 	"menuReportes.h"
 	"menuInformes.h"
 
-1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menucargar.h
+1762848288 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menucargar.h
 
 1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuborrar.h
 
@@ -90,10 +90,11 @@
 	<cstdlib>
 	"menuBorrar.h"
 
-1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menucargar.cpp
+1762848610 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menucargar.cpp
 	<iostream>
 	<cstdlib>
 	"menuCargar.h"
+	"funcionesCargar.h"
 
 1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuinformes.cpp
 	<iostream>
@@ -110,30 +111,57 @@
 	<cstdlib>
 	"menuReportes.h"
 
-1762802976 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.cpp
-	"archivoEntrenadores.h"
+1762847355 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.cpp
+	"ArchivoEntrenadores.h"
 
-1762803048 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.h
-	"ArchivoClientes.h"
+1762848591 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.h
+	"Entrenadores.h"
+	<cstring>
+	<iostream>
 
-1762803048 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoclientes.h
-	"archivoEntrenadores.h"
+1762848601 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoclientes.h
+	"Clientes.h"
+	<cstring>
+	<iostream>
 
-1762803990 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.cpp
+1762848462 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.cpp
+	<iostream>
 	"Clientes.h"
 
-1762803959 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.h
-	"Clientes.h"
+1762848462 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.h
 
-1762803959 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.h
-	"Clientes.h"
+1762848462 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.h
 
-1762803993 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.cpp
+1762848462 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.cpp
+	<iostream>
 	"Entrenadores.h"
 
-1762803819 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\sede.cpp
+1762848462 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\sede.cpp
+	<iostream>
 	"Sede.h"
 
-1762804036 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\sede.h
+1762848462 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\sede.h
+
+1762847243 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoclientes.cpp
+	"ArchivoClientes.h"
+
+1762848474 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivosedes.cpp
+	"ArchivoSedes.h"
+
+1762848550 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivosedes.h
 	"Sede.h"
+	<cstring>
+	<iostream>
+
+1762848206 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\funcionescargar.cpp
+	<iostream>
+	<cstdlib>
+	"Clientes.h"
+	"Entrenadores.h"
+	"Sede.h"
+	"ArchivoClientes.h"
+	"ArchivoEntrenadores.h"
+	"ArchivoSedes.h"
+
+1762848206 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\funcionescargar.h
 

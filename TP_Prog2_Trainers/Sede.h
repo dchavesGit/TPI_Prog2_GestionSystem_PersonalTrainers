@@ -1,23 +1,17 @@
 #pragma once
 
-#include "Sede.h"
-
 class Sede {
 private:
     int id;
-    char nombre[30];
-    char direccion[50];
-    char telefono[20];
-    bool activa;
+    char nombre[40];
+    char direccion[60];
+    bool activo;
 
 public:
-
     void Cargar();
     void Mostrar();
 
     int getID() const { return id; }
-    const char* getNombre() const { return nombre; }
-    bool getActiva() const { return activa; }
-
-    void setActiva(bool estado) { activa = estado; }
+    bool getActivo() const { return activo; }
+    void setActivo(bool estado) { activo = estado; }
 };
