@@ -32,12 +32,26 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="ArchivoClientes.cpp" />
+		<Unit filename="ArchivoClientes.h" />
+		<Unit filename="ArchivoEntrenadores.cpp" />
+		<Unit filename="ArchivoEntrenadores.h" />
+		<Unit filename="ArchivoSedes.cpp" />
+		<Unit filename="ArchivoSedes.h" />
 		<Unit filename="Clientes.cpp" />
 		<Unit filename="Clientes.h" />
 		<Unit filename="Entrenadores.cpp" />
 		<Unit filename="Entrenadores.h" />
+		<Unit filename="Persona.cpp" />
+		<Unit filename="Persona.h" />
 		<Unit filename="Sede.cpp" />
 		<Unit filename="Sede.h" />
+		<Unit filename="funcionesBorrar.cpp" />
+		<Unit filename="funcionesBorrar.h" />
+		<Unit filename="funcionesCargar.cpp" />
+		<Unit filename="funcionesCargar.h" />
+		<Unit filename="funcionesListar.cpp" />
+		<Unit filename="funcionesListar.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.cpp" />
 		<Unit filename="menu.h" />
@@ -47,6 +61,8 @@
 		<Unit filename="menuCargar.h" />
 		<Unit filename="menuInformes.cpp" />
 		<Unit filename="menuInformes.h" />
+		<Unit filename="menuListar.cpp" />
+		<Unit filename="menuListar.h" />
 		<Unit filename="menuModificar.cpp" />
 		<Unit filename="menuModificar.h" />
 		<Unit filename="menuReportes.cpp" />

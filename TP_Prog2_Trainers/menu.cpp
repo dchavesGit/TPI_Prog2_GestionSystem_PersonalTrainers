@@ -5,6 +5,7 @@
 #include "menuModificar.h"
 #include "menuReportes.h"
 #include "menuInformes.h"
+#include "menuListar.h"
 
 using namespace std;
 
@@ -21,6 +22,8 @@ void Menu::Principal(){
         cout << "3. MODIFICAR" << endl;
         cout << "4. REPORTES" << endl;
         cout << "5. INFORMES" << endl;
+        cout << "6. LISTAR" << endl;
+
         cout << endl << "0. Salir" << endl << endl;
 
         cout << "Ingresar opción: ";
@@ -47,6 +50,11 @@ void Menu::Principal(){
             MenuInformes menu;
             menu.Mostrar();
             break;}
+        case 6:{
+            MenuListar menu;
+            menu.Mostrar();
+            break;}
+
         }
     }
 }

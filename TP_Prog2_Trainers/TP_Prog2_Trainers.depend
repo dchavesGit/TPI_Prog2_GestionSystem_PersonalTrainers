@@ -66,7 +66,7 @@
 
 1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menu.h
 
-1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menu.cpp
+1762932836 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menu.cpp
 	<iostream>
 	"menu.h"
 	"menuCargar.h"
@@ -74,10 +74,11 @@
 	"menuModificar.h"
 	"menuReportes.h"
 	"menuInformes.h"
+	"menuListar.h"
 
 1762848288 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menucargar.h
 
-1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuborrar.h
+1762932033 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuborrar.h
 
 1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menumodificar.h
 
@@ -85,10 +86,10 @@
 
 1762553414 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuinformes.h
 
-1762553414 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuborrar.cpp
+1762932033 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menuborrar.cpp
 	<iostream>
-	<cstdlib>
 	"menuBorrar.h"
+	"funcionesBorrar.h"
 
 1762848610 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menucargar.cpp
 	<iostream>
@@ -111,28 +112,31 @@
 	<cstdlib>
 	"menuReportes.h"
 
-1762847355 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.cpp
+1762935768 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.cpp
 	"ArchivoEntrenadores.h"
+	<iostream>
 
 1762848591 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoentrenadores.h
 	"Entrenadores.h"
 	<cstring>
 	<iostream>
 
-1762848601 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoclientes.h
-	"Clientes.h"
+1762933362 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoclientes.h
 	<cstring>
-	<iostream>
-
-1762848462 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.cpp
-	<iostream>
 	"Clientes.h"
 
-1762848462 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.h
+1762934783 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.cpp
+	<iostream>
+	<cstring>
+	"Clientes.h"
 
-1762848462 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.h
+1762933700 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\clientes.h
+	"Persona.h"
 
-1762848462 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.cpp
+1762933792 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.h
+	"Persona.h"
+
+1762933799 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\entrenadores.cpp
 	<iostream>
 	"Entrenadores.h"
 
@@ -142,8 +146,9 @@
 
 1762848462 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\sede.h
 
-1762847243 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoclientes.cpp
+1762935768 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivoclientes.cpp
 	"ArchivoClientes.h"
+	<iostream>
 
 1762848474 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\archivosedes.cpp
 	"ArchivoSedes.h"
@@ -164,4 +169,39 @@
 	"ArchivoSedes.h"
 
 1762848206 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\funcionescargar.h
+
+1762932033 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\funcionesborrar.h
+
+1762932038 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\funcionesborrar.cpp
+	<iostream>
+	<cstdio>
+	"Clientes.h"
+	"Entrenadores.h"
+	"Sede.h"
+
+1762932549 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\persona.h
+
+1762932549 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\persona.cpp
+	<iostream>
+	<cstring>
+	"Persona.h"
+
+1762932825 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menulistar.h
+
+1762934199 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\menulistar.cpp
+	<iostream>
+	<cstdlib>
+	"menuListar.h"
+	"funcionesListar.h"
+
+1762935135 source:c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\funcioneslistar.cpp
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	"Clientes.h"
+	"Entrenadores.h"
+	"Sede.h"
+	"funcionesListar.h"
+
+1762934199 c:\users\valen\desktop\tpi_prog2_gestionsystem_personaltrainers-main\tp_prog2_trainers\funcioneslistar.h
 

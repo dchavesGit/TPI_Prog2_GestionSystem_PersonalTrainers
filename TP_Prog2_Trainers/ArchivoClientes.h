@@ -1,20 +1,18 @@
 #pragma once
-
-#include "Clientes.h"
 #include <cstring>
-#include <iostream>
-using namespace std;
+#include "Clientes.h"
 
 class ArchivoClientes {
 private:
     char _nombre[30];
+
 public:
-    ArchivoClientes(const char* nombre = "clientes.dat");
+    ArchivoClientes(const char* n = "clientes.dat");
 
-    int ContarRegistros();
-    int BuscarID(int id, bool todos = false);
-
-    Cliente LeerRegistro(int pos);
     bool Guardar(Cliente reg);
     bool Guardar(Cliente reg, int pos);
+    Cliente LeerRegistro(int pos);
+    int ContarRegistros();
+    int BuscarID(int id, bool todos);
+    int BuscarDni(int dni, bool todos);
 };

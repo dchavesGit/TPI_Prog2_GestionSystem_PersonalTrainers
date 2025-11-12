@@ -1,11 +1,9 @@
 #pragma once
+#include "Persona.h"
 
-class Cliente {
+class Cliente : public Persona {
 private:
     int id;
-    char nombre[30];
-    char apellido[30];
-    int dni;
     int idEntrenador;
     float cuotaMensual;
     bool activo;
@@ -19,6 +17,14 @@ public:
     float getCuotaMensual() const { return cuotaMensual; }
     bool getActivo() const { return activo; }
 
-    void setActivo(bool estado) { activo = estado; }
+    void setID(int nuevoID) {
+        if (nuevoID <= 0) id = 1;
+        else id = nuevoID;
+    }
+
+    void setIdEntrenador(int idE) { idEntrenador = idE; }
     void setCuotaMensual(float c) { cuotaMensual = c; }
+
+
+    void setActivo(bool estado);
 };

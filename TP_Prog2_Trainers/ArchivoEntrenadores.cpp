@@ -1,28 +1,33 @@
 #include "ArchivoEntrenadores.h"
+#include <iostream>
+using namespace std;
 
-ArchivoEntrenadores::ArchivoEntrenadores(const char* nombre){
+///GUARDA EL NOMBRE DEL ARCHIVO
+ArchivoEntrenadores::ArchivoEntrenadores(const char* nombre) {
     strcpy(_nombre, nombre);
 }
 
-int ArchivoEntrenadores::ContarRegistros(){
+///CUENTA LOS REGISTROS
+int ArchivoEntrenadores::ContarRegistros() {
     FILE* p = fopen(_nombre, "rb");
-    if(p == NULL) return -1;
-    fseek(p, 0, 2);
+    if (p == NULL) return -1;
+    fseek(p, 0, SEEK_END);
     int cantidad = ftell(p) / sizeof(Entrenador);
     fclose(p);
     return cantidad;
 }
 
-int ArchivoEntrenadores::BuscarID(int id, bool todos){
+///BUSCAR ENTRENADOR POR ID
+int ArchivoEntrenadores::BuscarID(int id, bool todos) {
     FILE* p = fopen(_nombre, "rb");
-    if(p == NULL) return -1;
+    if (p == NULL) return -1;
 
     Entrenador reg;
     int i = 0;
-    while(fread(&reg, sizeof(Entrenador), 1, p)){
-        if(reg.getID() == id){
+    while (fread(&reg, sizeof(Entrenador), 1, p)) {
+        if (reg.getID() == id) {
             fclose(p);
-            if(todos || reg.getActivo())
+            if (todos || reg.getActivo())
                 return i;
             else
                 return -1;
@@ -33,29 +38,34 @@ int ArchivoEntrenadores::BuscarID(int id, bool todos){
     return -1;
 }
 
-Entrenador ArchivoEntrenadores::LeerRegistro(int pos){
+///LEE UN REGISTRO SEGÚN SU POSICION
+Entrenador ArchivoEntrenadores::LeerRegistro(int pos) {
     FILE* p = fopen(_nombre, "rb");
     Entrenador reg;
-    if(p == NULL) return reg;
+    if (p == NULL) return reg;
 
-    fseek(p, sizeof(Entrenador) * pos, 0);
+    fseek(p, sizeof(Entrenador) * pos, SEEK_SET);
     fread(&reg, sizeof(Entrenador), 1, p);
     fclose(p);
     return reg;
 }
 
-bool ArchivoEntrenadores::Guardar(Entrenador reg){
+///GUARDAR ENTRENADOR NUEVO AL FINAL DEL ARCHIVO
+bool ArchivoEntrenadores::Guardar(Entrenador reg) {
     FILE* p = fopen(_nombre, "ab");
-    if(p == NULL) return false;
+    if (p == NULL) return false;
+
     bool escribio = fwrite(&reg, sizeof(Entrenador), 1, p);
     fclose(p);
     return escribio;
 }
 
-bool ArchivoEntrenadores::Guardar(Entrenador reg, int pos){
+///GUARDAR ENTRENADOR
+bool ArchivoEntrenadores::Guardar(Entrenador reg, int pos) {
     FILE* p = fopen(_nombre, "rb+");
-    if(p == NULL) return false;
-    fseek(p, sizeof(Entrenador) * pos, 0);
+    if (p == NULL) return false;
+
+    fseek(p, sizeof(Entrenador) * pos, SEEK_SET);
     bool escribio = fwrite(&reg, sizeof(Entrenador), 1, p);
     fclose(p);
     return escribio;

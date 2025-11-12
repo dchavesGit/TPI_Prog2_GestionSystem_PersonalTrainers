@@ -1,26 +1,32 @@
 #include <iostream>
+#include <cstring>
 #include "Clientes.h"
 using namespace std;
 
 void Cliente::Cargar() {
-    cout << "NOMBRE: ";
-    cin.ignore();
-    cin.getline(nombre, 30);
-    cout << "APELLIDO: ";
-    cin.getline(apellido, 30);
-    cout << "DNI: ";
-    cin >> dni;
-    cout << "ID ENTRENADOR: ";
+    Persona::Cargar();
+
+    cout << "ID del entrenador: ";
     cin >> idEntrenador;
-    cout << "CUOTA MENSUAL: ";
+    cout << "Cuota mensual: ";
     cin >> cuotaMensual;
     activo = true;
 }
 
 void Cliente::Mostrar() {
-    cout << "NOMBRE: " << nombre << endl;
-    cout << "APELLIDO: " << apellido << endl;
+    cout << "ID Cliente: " << id << endl;
+    cout << "Entrenador ID: " << idEntrenador << endl;
+    cout << "Cuota Mensual: " << cuotaMensual << endl;
+    cout << "Activo: " << (activo ? "Si" : "No") << endl;
+
+    cout << "Nombre: " << nombre << endl;
+    cout << "Apellido: " << apellido << endl;
     cout << "DNI: " << dni << endl;
-    cout << "ID ENTRENADOR: " << idEntrenador << endl;
-    cout << "CUOTA MENSUAL: $" << cuotaMensual << endl;
+    cout << "-----------------------------------\n";
 }
+
+void Cliente::setActivo(bool estado) {
+    activo = estado;
+}
+
+

@@ -3,18 +3,21 @@
 using namespace std;
 
 void Entrenador::Cargar() {
-    cout << "NOMBRE: ";
-    cin.ignore();
-    cin.getline(nombre, 30);
-    cout << "APELLIDO: ";
-    cin.getline(apellido, 30);
-    cout << "ESPECIALIDAD: ";
-    cin.getline(especialidad, 40);
-    activo = true;
+    Persona::Cargar();
+    cout << "Años de experiencia: ";
+    cin >> aniosExperiencia;
+    cout << "Salario mensual: ";
+    cin >> salarioMensual;
 }
 
 void Entrenador::Mostrar() {
-    cout << "NOMBRE: " << nombre << endl;
-    cout << "APELLIDO: " << apellido << endl;
-    cout << "ESPECIALIDAD: " << especialidad << endl;
+    Persona::Mostrar();
+    cout << "Años de experiencia: " << aniosExperiencia << endl;
+    cout << "Salario mensual: " << salarioMensual << endl;
+}
+
+void Entrenador::setActivo(bool estado) {
+    Persona::setActivo(estado);
+    activo = estado;
+    if (!estado) salarioMensual = 0;
 }

@@ -1,17 +1,33 @@
 #include <iostream>
-#include <cstdlib>
 #include "menuBorrar.h"
+#include "funcionesBorrar.h"
 using namespace std;
 
 void MenuBorrar::Mostrar() {
-       system("cls");
-     cout << "*MENU DE BORRAR*" << endl << endl;
-        cout << "1. CLIENTES " << endl;
-        cout << "2. PERSONAL TRAINERS" << endl;
-        cout << "3. CLASES" << endl;
-        cout << endl << "0. Salir" << endl << endl;
-
-        cout << "Ingresar opción: ";
-        int opcion;
+    int opcion;
+    while (true) {
+        system("cls");
+        cout << "==========================================" << endl;
+        cout << "           MENU BORRAR REGISTROS          " << endl;
+        cout << "==========================================" << endl;
+        cout << "1. Borrar Cliente" << endl;
+        cout << "2. Borrar Entrenador" << endl;
+        cout << "3. Borrar Sede" << endl;
+        cout << "0. Volver" << endl;
+        cout << "------------------------------------------" << endl;
+        cout << "Opcion: ";
         cin >> opcion;
+
+        switch (opcion) {
+        case 1: borrarCliente(); break;
+        case 2: borrarEntrenador(); break;
+        case 3: borrarSede(); break;
+        case 0: return;
+        default:
+            cout << "Opcion incorrecta." << endl;
+            system("pause");
+            break;
+        }
+    }
 }
+
