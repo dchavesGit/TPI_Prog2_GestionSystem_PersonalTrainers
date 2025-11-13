@@ -4,20 +4,20 @@ using namespace std;
 
 void Entrenador::Cargar() {
     Persona::Cargar();
-    cout << "Años de experiencia: ";
+    cout << "Aï¿½os de experiencia: ";
     cin >> aniosExperiencia;
-    cout << "Salario mensual: ";
-    cin >> salarioMensual;
+    cout << "Valor de la clase dictada: ";
+    cin >> valorClase;
 }
 
 void Entrenador::Mostrar() {
     Persona::Mostrar();
-    cout << "Años de experiencia: " << aniosExperiencia << endl;
-    cout << "Salario mensual: " << salarioMensual << endl;
+    cout << "Aï¿½os de experiencia: " << aniosExperiencia << endl;
+    cout << "Valor de la clase dictada: " << valorClase << endl;
 }
 
 void Entrenador::setActivo(bool estado) {
     Persona::setActivo(estado);
     activo = estado;
-    if (!estado) salarioMensual = 0;
+    if (!estado) valorClase = 0;
 }

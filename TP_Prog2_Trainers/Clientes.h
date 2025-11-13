@@ -13,6 +13,7 @@ public:
     void Mostrar();
 
     int getID() const { return id; }
+    int getDNI() const { return dni; }
     int getIdEntrenador() const { return idEntrenador; }
     float getCuotaMensual() const { return cuotaMensual; }
     bool getActivo() const { return activo; }

@@ -8,7 +8,6 @@ private:
 
 public:
     ArchivoClientes(const char* n = "clientes.dat");
-
     bool Guardar(Cliente reg);
     bool Guardar(Cliente reg, int pos);
     Cliente LeerRegistro(int pos);

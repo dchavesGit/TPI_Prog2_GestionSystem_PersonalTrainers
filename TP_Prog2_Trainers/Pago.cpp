@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include "Clientes.h"
+#include "Pago.h"
 using namespace std;
 
 void Cliente::Cargar() {
@@ -28,6 +28,3 @@ void Cliente::Mostrar() {
 void Cliente::setActivo(bool estado) {
     activo = estado;
 }
-
-
-

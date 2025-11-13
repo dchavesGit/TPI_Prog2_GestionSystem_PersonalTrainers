@@ -5,7 +5,7 @@ class Entrenador : public Persona {
 private:
     int id;
     int aniosExperiencia;
-    float salarioMensual;
+    float valorClase;
     bool activo;
 
 public:
@@ -14,7 +14,7 @@ public:
 
     int getID() const { return id; }
     int getAniosExperiencia() const { return aniosExperiencia; }
-    float getSalarioMensual() const { return salarioMensual; }
+    float getvalorClase() const { return valorClase; }
     bool getActivo() const { return activo; }
 
     void setID(int nuevoID) {
@@ -23,8 +23,8 @@ public:
     }
 
     void setAniosExperiencia(int a) { aniosExperiencia = a; }
-    void setSalarioMensual(float s) { salarioMensual = s; }
+    void setvalorClase(float s) { valorClase = s; }
 
-    // Declaración (implementación en .cpp)
+    // Declaraciï¿½n (implementaciï¿½n en .cpp)
     void setActivo(bool estado);
 };
